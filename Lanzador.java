@@ -16,7 +16,7 @@ public class Lanzador {
 		Thread[] hilosIngresan20 = new Thread[NUM_OPS_CON_20];
 		Thread[] hilosRetiran20 = new Thread[NUM_OPS_CON_20];
 
-		/* Arrancamos todos los hilos */
+		/* Arrancamos todos los hilosss */
 		for (int i = 0; i < NUM_OPS_CON_100; i++) {
 			HiloCliente ingresa = new HiloCliente(cuenta, 100);
 			HiloCliente retira = new HiloCliente(cuenta, -100);
